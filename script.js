@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", showNextImage);
 // Razorpay Payment Integration
 document.getElementById("buyNow").addEventListener("click", function () {
     var options = {
-        "key": "YOUR_RAZORPAY_KEY", // Replace with your Razorpay Key ID
+        "key": "rzp_live_HGsIkG38t73zV5", // Replace with your Razorpay Key ID
         "amount": 18000, // Amount in paise (18000 paise = ₹180)
         "currency": "INR",
         "name": "Your Store Name",
