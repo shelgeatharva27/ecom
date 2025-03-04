@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('images/2204_w030_n002_358a_p1_358.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+h1, .carousel, .description, .buy-button, .download-button {
+    position: relative;
+    z-index: 1;
+}
+
+/* Image Carousel */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.description {
+    margin: 20px 0;
+    font-size: 18px;
+    color: black;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 166, 0, 0.739);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buy-button, .download-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buy-button:hover, .download-button:hover {
+    background-color: #218838;
+}
