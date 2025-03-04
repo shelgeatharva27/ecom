@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", showNextImage);
 document.getElementById("buyNow").addEventListener("click", function () {
     var options = {
         "key": "rzp_live_HGsIkG38t73zV5", // Replace with your Razorpay Key ID
-        "amount": 18000, // Amount in paise (18000 paise = ₹180)
+        "amount": 100, // Amount in paise (18000 paise = ₹180)
         "currency": "INR",
-        "name": "Your Store Name",
+        "name": "ChatGPT for teachers",
         "description": "Purchase Digital Product",
         "image": "images/logo.png", // Your logo (optional)
         "handler": function (response) {
